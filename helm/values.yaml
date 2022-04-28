@@ -7,10 +7,10 @@ application:
   name: sampleapi #Aadhar Vault Manager
   type: api
 
-replicaCount: 1
+replicaCount: 10
 
 image:
-  repository: techparkacrhelmdemo.azurecr.io
+  repository: rameshacr.azurecr.io
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"
