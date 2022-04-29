@@ -37,5 +37,5 @@ spec:
             - name: http
               containerPort: 5005
               protocol: TCP
-      #nodeSelector:
-        #  agentpool: testnodepool 
+      nodeSelector: 
+          agentpool: apinodepool 
